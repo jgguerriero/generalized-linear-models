@@ -1,9 +1,13 @@
 # generalized-linear-models
-This is a working R script that walks through the low-level solutions for generalized linear model parameters.
+This is a working R script that provides a low-level walk-through (i.e., using the linear algebra and optimization methods) for obtaining some of the statistics associated with the generalized linear model.
 
-Derivations include:
+Includes:
   - OLS coefficients for multiple linear regression
-  - 
+  - Standard errors associated with OLS coefficients
+  - Translating linear regression to ANOVA sums of squares (Type 3)
+  - Weighted least squares solution for multiple linear regression
+  - Standard errors associated with WLS coefficients
+  - Numeric solution for coefficients from logistic regression
   
   
   

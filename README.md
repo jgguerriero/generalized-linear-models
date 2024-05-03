@@ -5,9 +5,9 @@ Includes:
   - OLS coefficients for multiple linear regression
   - Standard errors associated with OLS coefficients
   - Translating linear regression to 3x2 ANOVA sums of squares (Type 3)
-  - Weighted least squares solution for multiple linear regression
+  - Weighted least squares coefficients for multiple linear regression
   - Standard errors associated with WLS coefficients
-  - Numeric solution for coefficients from logistic regression
+  - Numeric solution for logistic regression coefficients
   
   
   

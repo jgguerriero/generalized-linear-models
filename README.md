@@ -9,7 +9,7 @@ Includes:
     - Weighted least squares coefficients for multiple linear regression
     - Standard errors associated with WLS coefficients
   - Logistic regression
-    - Numeric solution for logistic regression coefficients
+    - Numerically derived coefficients for multiple logistic regression
   
   
   

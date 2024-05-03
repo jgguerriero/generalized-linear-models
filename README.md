@@ -10,6 +10,7 @@ Includes:
     - Standard errors associated with WLS coefficients
   - Logistic regression
     - Numerically derived coefficients for multiple logistic regression
+    - Standard errors associated with coefficients
   
   
   

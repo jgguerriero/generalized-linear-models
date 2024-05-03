@@ -8,7 +8,8 @@ Includes:
     - Translating linear regression to 3x2 ANOVA sums of squares (Type 3)
     - Weighted least squares coefficients for multiple linear regression
     - Standard errors associated with WLS coefficients
-  - Numeric solution for logistic regression coefficients
+  - Logistic regression
+    - Numeric solution for logistic regression coefficients
   
   
   

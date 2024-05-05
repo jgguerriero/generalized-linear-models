@@ -9,7 +9,10 @@ Includes:
     - Weighted least squares coefficients for multiple linear regression
     - Standard errors associated with WLS coefficients
   - Logistic regression
-    - Numerically derived coefficients for multiple logistic regression
+    - Numerically derived coefficients for logistic regression with multiple predictors
+    - Standard errors associated with coefficients
+  - Poisson regression
+    - Numerically derived coefficients for poisson regression with multiple predictors
     - Standard errors associated with coefficients
   
   

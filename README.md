@@ -1,5 +1,5 @@
 # generalized-linear-models
-This is a working R script that provides a low-level walk-through (i.e., using linear algebra and optimization methods) for obtaining some of the parameters and statistics associated with the generalized linear model and its extensions.
+This is a working R script that provides a low-level walk-through (i.e., using the appropriate linear algebra and optimization) for obtaining some of the parameters and statistics associated with the generalized linear model and its extensions.
 
 Includes:
   - Linear regression

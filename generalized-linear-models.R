@@ -22,9 +22,14 @@ betas;coef(lm_mod)
 ## SEs -----
 # deriving standard errors manually
 predicted_ys = X_matrix %*% betas
+n_obs = nrow(X_matrix)
+n_params = ncol(X_matrix)
 
-se = sqrt(diag((sum((lm_df$y - predicted_ys)^2)/(100-2-1)) *
-            solve(t(X_matrix) %*% X_matrix)))
+# variance covariance matrix Var(β^)=σ^2*(X⊤X)^−1 
+v_cov_matrix = (sum((lm_df$y - predicted_ys)^2)/(n_obs-n_params)) * solve(t(X_matrix) %*% X_matrix)
+
+# diagonal is with respect to the variance of each predictor. square it, and you get the standard deviation - an approximation of the standard error 
+se = sqrt(diag(v_cov_matrix))
 
 # compare manual SEs to lm SEs 
 se;summary(lm_mod)$coefficients[, "Std. Error"]
